@@ -1,8 +1,8 @@
 *export summary stats in excel for the sample
 
-local rd "stats_rd"
+local file_name "file_name"
 foreach x of local rd{
-  global vars "rd_stock_ln rho tnic3hhi patent product process ratio2 sales mkbk"
+  global vars "price mpg rep78 headroom trunk weight length turn displacement gear_ratio"
   gen var=""
   gen count=.
   gen mean=.
