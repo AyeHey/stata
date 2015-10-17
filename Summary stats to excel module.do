@@ -1,4 +1,8 @@
-*export summary stats in excel for the sample
+*export summary stats to excel
+
+set more off
+
+sysuse auto, clear
 
 local file_name "file_name"
 foreach x of local rd{
