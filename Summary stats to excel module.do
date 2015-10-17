@@ -18,7 +18,7 @@ foreach x of local rd{
 
     local a: word `i' of $vars
 
-    sum `a' if rho!=. & fyear>=1981, detail
+    sum `a', detail
     replace var = "`a'" if _n==`i'
     replace count = r(N) if _n==`i'
     replace mean = r(mean) if _n==`i'
