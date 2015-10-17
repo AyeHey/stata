@@ -1,3 +1,3 @@
 # stata
 Stata works
-this is the code?
+stata code for projects I finished
