@@ -5,7 +5,7 @@ set more off
 sysuse auto, clear
 
 local file_name "file_name"
-foreach x of local rd{
+foreach x of local file_name{
   global vars "price mpg rep78 headroom trunk weight length turn displacement gear_ratio"
   gen var=""
   gen count=.
